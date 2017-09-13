@@ -8,6 +8,7 @@ import {
   FuncA, FuncB
 } from 'example/src/modules';
 
+console.log('hxk---','loading SampleB');
 class SampleB extends React.Component {
   render() {
     FuncA();

@@ -1,3 +1,3 @@
 module.exports = function() {
-  console.log('ApiOfComponentB called!');
+  console.log('hxk----','ApiOfComponentB called!');
 }

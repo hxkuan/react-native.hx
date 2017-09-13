@@ -107,7 +107,7 @@ class Utils {
             Method method = CatalystInstanceImpl.class.getDeclaredMethod("loadScriptFromAssets",
                 AssetManager.class,
                 String.class);
-            method.setAccessible(true);
+            method.setAccessible(true);//类中的成员变量为private,故必须进行此操
             method.invoke(instance, context.getAssets(), source);
             sLoadedScript.add(assetName);
         } catch (IllegalAccessException e) {

@@ -10,11 +10,13 @@ import {
 } from 'example/src/modules';
 import ApiOfSampleA from './ApiOfSampleA';
 
+console.log('hxk---','loading SampleA');
+
 class SampleA extends React.Component {
   render() {
-    ApiOfSampleA();
     FuncA();
     FuncB();
+    ApiOfSampleA();
     return (
       <View style={styles.container}>
         <Image
